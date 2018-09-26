@@ -16,8 +16,8 @@ pip install undopy
     >>> t = UndoLog()
     >>> d = undo_dict({1: "VU", 2: "UvA"})
     >>> l = undo_list([1, 2, 3])
-    >>> t.adder(d)
-    >>> t.adder(l)
+    >>> t.add(d)
+    >>> t.add(l)
     >>> l.append(1)
     >>> d[3] = "CWI"
     >>> l

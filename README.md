@@ -6,6 +6,10 @@ UndoPy is a library providing persistent Undo/Redo for two python data structure
 
 This method is implemented using principles of inverse computations
 
+## Usage
+
+pip install undopy
+
 ### Undo and Redo Example
 
     >>> from UndoPy import UndoLog, undo_dict, undo_list
